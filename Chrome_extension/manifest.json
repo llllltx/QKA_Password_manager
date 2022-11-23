@@ -1,0 +1,26 @@
+{
+    "name":"QKA password manager", 
+    "description":"Design and implementation of password manager based on cryptographic protocol",
+    "version":"1.0",
+    "manifest_version":3,
+    "icons": {
+        "16": "image/icon-nku-16.png",
+        "48": "image/icon-nku-48.png",
+        "128": "image/icon-nku-128.png"
+    },
+    "permissions":[
+        "contextMenus",
+        "alarms",
+        "notifications",
+        "webRequest",
+        "storage",
+        "tabs",
+        "cookies",
+        "downloads"
+    ],
+    "action":{
+        "default_title":"QKA Password Manager",
+        "default_popup":"popup.html"
+    },
+    "homepage_url": "https://www.baidu.com"
+}

@@ -1,0 +1,62 @@
+#logo{
+    position: absolute;
+    left: 10px;
+    top:20px;
+    width: 280px;
+}
+#lable1{
+    color:rgb(83, 79, 79) ;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    font-family:KaiTi;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+#sign_in{
+    color:cornflowerblue;
+    font-size: 20px;
+    text-align:center;
+    font-weight: 700;
+    font-family: KaiTi;
+    position: absolute;
+    right: 25px;
+    top: 70px;
+}
+#line1{
+    color: aliceblue;
+    position: absolute;
+    width:280px;
+    top: 95px;
+}
+#input_form{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: FangSong;
+    position: absolute;
+    width:280px;
+    height: 150px;
+    top: 105px;
+}
+#setting_form{
+    position: absolute;
+    width:280px;
+    top: 300px;
+}
+input{
+    position: absolute;
+    left: 15px;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+}
+#login_button{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+}
+
