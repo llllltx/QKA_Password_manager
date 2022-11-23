@@ -40,9 +40,19 @@
     top: 105px;
 }
 #setting_form{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Microsoft Yahei;
     position: absolute;
     width:280px;
     top: 300px;
+}
+#setting_form>input{
+    position: absolute;
+    left: 15px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
 }
 input{
     position: absolute;

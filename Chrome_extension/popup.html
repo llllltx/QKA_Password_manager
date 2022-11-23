@@ -12,7 +12,7 @@
         </style>
         <link rel="stylesheet" type="text/css" href="Style.css">
     </head>
-    <body>
+    <body background="image/background.png">
         <img id="logo" src="image/QKA_pw1.0.jpg" alt="QKA Password Manager 1.0">
         <label id="lable1">登录</label>
         <!-- To Do： 点击连接跳转到口令管理器官网，网站还没写。。。--> 
@@ -27,11 +27,22 @@
                 主口令
             <br/>
             <input type="password" name="mpd" size="30"  maxlength="30" >
+            <br/>
             <button id="login_button">登录</button>
         </form> 
 
         <form id="setting_form">
-            设置
+            设置：
+            <br/>
+            <div>
+            <div style="float:left"><font face="仿宋">生成口令长度</font></div>
+            <div style="float:right"><font face="仿宋">计数器</font></div>
+            </div>  
+            <br/>
+            <input style="left: 10px;" type="text" name="length" size="10"  maxlength="30" >
+            <input style="left: 150px;" type="text" name="ctr" size="10"  maxlength="30" >
+             <br/>
+            
         </form> 
 
         
