@@ -1,7 +1,7 @@
 #logo{
     position: absolute;
     left: 10px;
-    top:20px;
+    top:15px;
     width: 280px;
 }
 #lable1{
@@ -12,7 +12,17 @@
     font-family:KaiTi;
     position: absolute;
     left: 20px;
-    top: 70px;
+    top: 60px;
+}
+#lable2{
+    color:rgb(83, 79, 79) ;
+    text-align:left;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:KaiTi;
+    position: absolute;
+    top: 13px;
+    left: 127px;
 }
 #sign_in{
     color:cornflowerblue;
@@ -22,13 +32,13 @@
     font-family: KaiTi;
     position: absolute;
     right: 25px;
-    top: 70px;
+    top: 60px;
 }
 #line1{
     color: aliceblue;
     position: absolute;
     width:280px;
-    top: 95px;
+    top: 85px;
 }
 #input_form{
     font-size: 18px;
@@ -37,36 +47,59 @@
     position: absolute;
     width:280px;
     height: 150px;
-    top: 105px;
+    top: 95px;
 }
-#setting_form{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Microsoft Yahei;
+#input_email{
     position: absolute;
-    width:280px;
-    top: 300px;
+    top:15px;
+    left: 10px;
+    width: 238px;
+    height: 35px;
+    border-radius: 3px;
+    background: url(image/email_icon.png) no-repeat 4px 7px;
+    background-size: 8%;
+    padding-left: 32px;
+
 }
-#setting_form>input{
+#input_pwd{
     position: absolute;
-    left: 15px;
-    width: 120px;
-    height: 30px;
-    border-radius: 5px;
-}
-input{
-    position: absolute;
-    left: 15px;
-    width: 260px;
-    height: 30px;
-    border-radius: 5px;
+    top:75px;
+    left: 10px;
+    width: 238px;
+    height: 35px;
+    border-radius: 3px;
+    background: url(image/password_icon.png) no-repeat 7px 7px;
+    background-size: 6%;
+    padding-left: 32px;
 }
 #login_button{
     position: absolute;
-    top: 160px;
-    left: 60px;
-    width: 180px;
-    height: 30px;
-    border-radius: 5px;
+    top: 135px;
+    left: 70px;
+    color:rgb(83, 79, 79) ;
+    font-family:KaiTi;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
 }
+#setting_form{
+    color:rgb(83, 79, 79) ;
+    font-family:KaiTi;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    width:290px;
+    top: 270px;
+}
+
+#setting_form>input{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+
 
